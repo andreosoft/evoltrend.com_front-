@@ -1,0 +1,66 @@
+.b-select-placeholder {
+  color: #999;
+}
+
+.b-select-input {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  top: 0;
+  margin: 0 20px 0 13px;
+  width: 100%;
+  padding: 7px 60px 6px 0px;
+  border: none;
+  background: #fff0;
+  outline: none;
+  color: #555;
+}
+
+.b-select {
+  display: block;
+  position: absolute;
+  z-index: 100;
+  background: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 2px;
+  right: 0;
+  left: 0;
+  margin: 0 15px;
+  overflow: auto;
+  max-height: 300px;
+}
+
+.b-select-el {
+  padding: 0 0.75rem;
+  cursor: pointer;
+
+  &.active,
+  &.active:hover {
+    background: #c2c3e4;
+  }
+
+  &:hover {
+    background: #eee;
+  }
+
+  &.disabled {
+    color: #777;
+  }
+}
+
+.b-select-arrow {
+  position: absolute;
+  right: 25px;
+  top: 4px;
+  color: #777;
+  font-size: 16px;
+}
+
+
+.bs-position-top {
+  top: 100%;
+}
+
+.bs-position-bottom {
+  bottom: 100%;
+}

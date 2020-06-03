@@ -1,0 +1,49 @@
+.form-fixed {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    padding: 15px;
+
+    .form-body {
+        position: absolute;
+        overflow-x: hidden;
+        left: 0px;
+        right: 0px;
+        bottom: 0;
+        top: 60px;
+        margin: 0 0 0 0;
+        padding: 0 15px 0 0;
+
+    }
+
+    .form-body-inner {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        overflow: auto;
+        padding: 15px;
+    }
+
+    .form-header {
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+        left: 0;
+        right: 0;
+        position: absolute;
+        padding: 0 15px 5px 15px;
+        z-index: 1;
+        background-color: #ffffff;
+        white-space: nowrap;
+
+        .breadcrumb {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.nav-inner {
+    margin-top: 20px;
+}

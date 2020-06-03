@@ -1,0 +1,5 @@
+#!/bin/bash
+
+npm run build
+
+scp -r -P 2298 dist/ andrey@109.234.34.159:/srv/evoltrend.com/lk
