@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import form1 from "@/widgets/form/form1.vue";
-import table2 from "@/widgets/table2/table.vue";
+import form1 from "@/wid/form/form1.vue";
+import table2 from "@/wid/table2/table.vue";
 import api from "@/config/api";
 
 export default {

@@ -21,9 +21,9 @@
 
 <script>
 import api from "@/config/api";
-import form1 from "@/widgets/form/form1.vue";
-import view1 from "@/widgets/view2/view.vue";
-import viewMixin from "@/widgets/view2/view.js";
+import form1 from "@/wid/form/form1.vue";
+import view1 from "@/wid/view2/view.vue";
+import viewMixin from "@/wid/view2/view.js";
 
 export default {
   mixins: [viewMixin],

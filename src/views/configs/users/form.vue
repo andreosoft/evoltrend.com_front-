@@ -26,12 +26,12 @@
 
 <script>
 import api from "@/config/api";
-import form1 from "@/widgets/form/form1.vue";
+import form1 from "@/wid/form/form1.vue";
 import axios from "axios";
 import router from "@/config/router";
-import editMixin from "@/widgets/view2/edit.js";
-import edit1 from "@/widgets/view2/edit.vue";
-import viewMixin from "@/widgets/view2/view.js";
+import editMixin from "@/wid/view2/edit.js";
+import edit1 from "@/wid/view2/edit.vue";
+import viewMixin from "@/wid/view2/view.js";
 
 export default {
   mixins: [viewMixin, editMixin],
